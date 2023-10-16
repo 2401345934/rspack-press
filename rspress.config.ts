@@ -5,15 +5,15 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'Rspress',
   description: 'Rspack-based Static Site Generator',
-  icon: "/rspress-icon.png",
+  icon: "https://raw.githubusercontent.com/2401345934/picgo/master/imgrspress-icon.png",
   logo: {
-    light: "/rspress-light-logo.png",
-    dark: "/rspress-dark-logo.png",
+    light: "https://raw.githubusercontent.com/2401345934/picgo/master/imgrspress-light-logo.png",
+    dark: "https://raw.githubusercontent.com/2401345934/picgo/master/imgrspress-dark-logo.png",
   },
   builderConfig: {
-    dev: {
-      assetPrefix: true,
-    },
+      dev: {
+          assetPrefix: true,
+      },
     output: {
       assetPrefix: './',
     },
