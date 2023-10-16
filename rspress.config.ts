@@ -10,11 +10,6 @@ export default defineConfig({
     light: "/rspress-light-logo.png",
     dark: "/rspress-dark-logo.png",
   },
-  builderConfig: {
-    output: {
-      assetPrefix: 'rspack-press',
-    },
-  },
   themeConfig: {
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
