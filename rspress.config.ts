@@ -14,9 +14,9 @@ export default defineConfig({
       dev: {
           assetPrefix: true,
       },
-    output: {
-      assetPrefix: './',
-    },
+      output: {
+        assetPrefix: './',
+      },
   },
   themeConfig: {
     socialLinks: [
