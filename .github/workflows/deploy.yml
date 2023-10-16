@@ -43,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: rspress/doc_build
+          path: rspack-press/doc_build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
@@ -56,4 +56,4 @@ jobs:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
           # 部署目录为 .vitepress 的默认输出目录
-          build_dir: rspress/doc_build
+          build_dir: rspack-press/doc_build
