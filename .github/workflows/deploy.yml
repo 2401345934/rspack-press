@@ -54,5 +54,5 @@ jobs:
         with:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
-          # 部署目录为 .vitepress 的默认输出目录
+          # 部署目录为 .rspack-press 的默认输出目录
           build_dir: doc_build
