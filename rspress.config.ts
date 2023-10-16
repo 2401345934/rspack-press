@@ -11,12 +11,12 @@ export default defineConfig({
     dark: "https://raw.githubusercontent.com/2401345934/picgo/master/imgrspress-dark-logo.png",
   },
   builderConfig: {
-      dev: {
-          assetPrefix: true,
-      },
-      output: {
-        assetPrefix: './',
-      },
+    dev: {
+        assetPrefix: true,
+    },
+    output: {
+      assetPrefix: './',
+    },
   },
   themeConfig: {
     socialLinks: [
