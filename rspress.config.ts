@@ -12,7 +12,7 @@ export default defineConfig({
   },
   builderConfig: {
     output: {
-      assetPrefix: '/',
+      assetPrefix: './',
     },
   },
   themeConfig: {
