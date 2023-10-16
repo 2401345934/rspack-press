@@ -1,0 +1,35 @@
+{
+  "name": "rspress-doc-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview",
+    "version": "# 修改 version  \n zx bump.mjs",
+    "commit": "npm run version && npm run changelog && git add . && git cz ",
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0",
+    "prepare": "husky install"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "rspress": "^0.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.5",
+    "commitizen": "^4.3.0",
+    "commitlint": "^17.6.5",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.3",
+    "inquirer": "8.2.3",
+    "zx": "^7.2.2",
+    "prompts": "^2.4.2",
+    "@types/node": "^14"
+  }
+}
