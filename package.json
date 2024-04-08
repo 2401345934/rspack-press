@@ -1,6 +1,6 @@
 {
   "name": "rspress-doc-template",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "private": true,
   "scripts": {
     "dev": "rspress dev",
@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "rspress": "^1.14.0"
+    "rspress": "^1.17.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.6.5",

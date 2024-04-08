@@ -1,6 +1,7 @@
-## <small>1.1.4 (2024-03-08)</small>
+## <small>1.1.5 (2024-04-08)</small>
 
 * ✨新增(config): ([aacda83](https://github.com/2401345934/rspack-press/commit/aacda83))
+* ✨新增(webpack): 更新package ([e1ae97a](https://github.com/2401345934/rspack-press/commit/e1ae97a))
 * 🐛修复(custom): deploy ([719db2a](https://github.com/2401345934/rspack-press/commit/719db2a))
 * 🐛修复(custom): fix build bug ([d668a72](https://github.com/2401345934/rspack-press/commit/d668a72))
 * 🐛修复(custom): fix package ([e576fe6](https://github.com/2401345934/rspack-press/commit/e576fe6))
